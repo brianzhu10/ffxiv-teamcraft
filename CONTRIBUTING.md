@@ -152,3 +152,8 @@ For this you'll need two terminals opened, bash, cmd, ps, as you want.
 Fishing data and allagan reports won't work in a dev env, this is due to the fact that dev env uses a separate firebase instance, which isn't able to produce the same oauth token that's used in production to communicate with the graphql API. 
 
 In order to use fishing data, you'll have to edit the `environment.ts` (or `environment.beta.ts` if you're using desktop app) file to replace the content of the `firebase` key by the content of the `firebase` key in the `environment.prod.ts` file.
+
+## Question
+
+Any questions or concerns will be answered on our Discord: https://discord.gg/r6qxt6P
+Contact any moderators or contributors for assistance.
